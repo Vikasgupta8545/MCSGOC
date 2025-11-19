@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header nav{
@@ -99,7 +100,7 @@ header nav a{
 .content #about-us #para .quote1 #quote2 #text {
     float: right;
     margin-top: -12vh;
-    font-size: larger;
+    font-size: large;
 }
 .content #about-us #para .quote2 #sogan{
     background-color: rgb(223, 249, 223);
@@ -111,7 +112,7 @@ header nav a{
     margin-top: 25px;
 }
 .content #about-us #para .quote2 #sogan p{
-    padding: 40px 40px;
+    padding: 30px 30px;
     word-spacing: 2px ;
 }
 .content #about-us #para .quote2 h1{
@@ -244,4 +245,236 @@ header nav a{
     z-index: 3;
     border-radius: 90px 0px 90px 90px;
     border: 2px solid orange;
+}
+
+
+
+/* Photo Gallery 3rd layout */
+
+
+.content #gallery{
+    height: 70vw;
+    width: 100%;
+    text-align: center;
+}
+.content #gallery h1{
+    font-size: 2.5rem;
+    padding-top: 6%;
+    font-weight: 900;
+    color: rgb(58, 57, 57);
+}
+.content #gallery h1 span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(239, 185, 78);
+}
+.content #gallery #photos {
+    padding-left: 7vh;
+    padding-top: 5vw;
+    width: 96.2%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+.content #gallery #photos #d1{
+    height: 70%;
+    width: 90%;
+    background: url(ph1.jpg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d1 h2{
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery #photos #d2 {
+    height: 70%;
+    width: 90%;
+    background: url(ph2.jpeg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d2 h2 {
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery #photos #d3 {
+    height: 70%;
+    width: 90%;
+    background: url(ph3.jpg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d3 h2 {
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery #photos #d4 {
+    height: 70%;
+    width: 90%;
+    background: url(ph4.jpg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d4 h2 {
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery #photos #d5 {
+    height: 70%;
+    width: 90%;
+    background: url(ph5.jpg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d5 h2 {
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery #photos #d6 {
+    height: 70%;
+    width: 90%;
+    background: url(ph6.jpg);
+    border: 4px solid rgb(233, 167, 53);
+    background-size: cover;
+    background-position-y: -20px;
+    border-radius: 60px 60px 60px 0;
+    overflow: hidden;
+}
+.content #gallery #photos #d6 h2 {
+    font-size: 22.5px;
+    background-color: white;
+    margin-top: 53%;
+    text-align: left;
+}
+.content #gallery button{
+    height: 5%;
+    width: 11%;
+    background-color:rgb(239, 185, 78);
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 20px 20px 20px 0;
+}
+.content #gallery button a{
+    text-decoration: none;
+    color: white;
+}
+.content #gallery button a:hover{
+    color: pink;
+    text-transform:lowercase;
+    text-shadow: 2px 2px 3px black;
+}
+/* .content #invite-bg{
+    height: 60vw;
+    width: 100%;
+    background:url(cta-banner.jpg);
+    background-size: cover;
+    position: static;
+    z-index: 1;
+    background-attachment: scroll;
+    /* top: 0;
+    bottom: 20px; 
+} */
+.content #invite-bg {
+    position: relative;
+    background-image: url(cta-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* consider removing for mobile */
+    height: 500px;
+    margin: 0;
+    margin-bottom: 65px;
+    /* or margin-bottom: 65px if spacing is needed */
+}
+.content #invitation-card {
+    /* background-color: pink; */
+    height:85%;
+    width: 35%;
+    background: orange;
+    z-index: 2;
+    border-radius: 50px 50px 50px 0px;
+    position: absolute;
+    bottom:7%;
+    right: 20%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 10px double white;
+}
+.content #invitation-card h2{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color: white;
+}
+.content #invitation-card p{
+    text-align:justify;
+    color: black;
+    font-size: small;
+    word-spacing: 4px;
+    line-height: 25px;
+    padding: 3%;
+}
+.content #invitation-card button{
+    height: 6vh;
+    width: 10vw;
+    color: rgb(96, 93, 93);
+    background-color:white;
+    font-weight: bolder;
+    border: none;
+    margin-left: 2%;
+    border-radius: 30px 30px 30px 0px;
+}
+.content #invitation-card button a{
+    text-decoration: none;
+    color:rgb(96, 93, 93);
+}
+
+/* courses */
+
+
+.content #courses{
+    height: 400vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content #courses h1{
+    font-size: 40px;
+    color: rgb(68, 67, 67);
+    text-align: center;
+}
+.content #courses h1 span{
+    color: orange;
+}
+content #courses #details{
+    width: 100%;
+    height: 75%;
+    background-color: blue;
 }
